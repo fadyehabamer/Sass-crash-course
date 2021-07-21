@@ -1,3 +1,3 @@
 # Sass crash course
-this repo contains basic explanation & examples for beginners
+> this repo contains basic explanation & examples for beginners
  
