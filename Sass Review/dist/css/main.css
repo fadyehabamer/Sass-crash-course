@@ -29,7 +29,8 @@ body {
     margin-top: 20px;
     display: inline-block; }
   .card .btn-seconday {
-    background-color: coral; }
+    background-color: coral;
+    color: #eee; }
 
 h1 {
   padding: 10px 0;
