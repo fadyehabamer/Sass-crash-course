@@ -7,8 +7,10 @@
     height: auto;
 
     .card-header{
-        text-align: center;
-        padding: 1rem 0;
+        padding: 0.4rem 0;
         border-bottom: 2px solid #333;
+    }
+    .card-body{
+        margin: 10px 0;
     }
 }
