@@ -20,13 +20,16 @@ body {
     border-bottom: 2px solid #333; }
   .card p {
     padding: 10px 0; }
-  .card a {
+  .card .btn {
     background-color: #eee;
     padding: 0.5rem 1rem;
     text-decoration: none;
     color: #008b7f;
     border-radius: 3px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    display: inline-block; }
+  .card .btn-seconday {
+    background-color: coral; }
 
 h1 {
   padding: 10px 0;
