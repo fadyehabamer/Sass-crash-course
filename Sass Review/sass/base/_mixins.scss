@@ -5,3 +5,11 @@
   -o-transform: $p;
   transform: $p;
 }
+
+@function setBtnColor($c) {
+  @if (lightness($c) > 50) {
+    @return #fff;
+  } @else {
+    @return #000;
+  }
+}

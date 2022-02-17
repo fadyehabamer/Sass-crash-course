@@ -29,7 +29,7 @@
 
     &-seconday {
       background-color: $secondaryColor;
-      color: #eee;
+      color: setBtnColor($secondaryColor);
     }
 
     &:hover {
