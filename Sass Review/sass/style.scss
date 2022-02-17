@@ -1,6 +1,7 @@
 // * variables
 $primaryColor: darkblue;
 $colorLight: #eee;
+$fontFamily:Arial;
 
 
 *{
@@ -12,6 +13,7 @@ $colorLight: #eee;
 body{
     color: $primaryColor;
     background-color: $colorLight;
+    font-family: $fontFamily;
 }
 
 .box {
