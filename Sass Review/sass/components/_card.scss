@@ -13,4 +13,11 @@
     .card-body{
         margin: 10px 0;
     }
+
+    a{
+        background-color: $colorLight;
+        padding:5px 3px;
+        text-decoration: none;
+        color: $primaryColor;
+    }
 }
