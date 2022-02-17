@@ -15,6 +15,10 @@ body {
   margin: 20px auto;
   width: 400px;
   height: auto; }
+  .card .card-header {
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 2px solid #333; }
 
 h1 {
   padding: 10px 0;
