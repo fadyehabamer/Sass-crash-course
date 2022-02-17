@@ -15,7 +15,7 @@ body {
   margin: 20px auto;
   width: 400px;
   height: auto; }
-  .cardheader {
+  .card-header {
     padding: 0.4rem 0;
     border-bottom: 2px solid #333; }
   .card p {
