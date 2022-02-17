@@ -11,7 +11,10 @@ body {
 .card {
   padding: 2rem;
   background-color: #008b7f;
-  color: #eee; }
+  color: #eee;
+  margin: 20px auto;
+  width: 400px;
+  height: auto; }
 
 h1 {
   padding: 10px 0;
