@@ -33,6 +33,7 @@ body {
     background-color: #7f50ff;
     color: #eee; }
   .card .btn:hover {
+    background-color: #d5d5d5;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
