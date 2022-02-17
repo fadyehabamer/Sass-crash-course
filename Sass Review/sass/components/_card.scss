@@ -28,8 +28,8 @@
     @extend %btn;
 
     &-seconday {
-      background-color: $secondaryColor;
-      color: setBtnColor($secondaryColor);
+      background-color: #eee;
+      color: setBtnColor(#eee);
     }
 
     &:hover {

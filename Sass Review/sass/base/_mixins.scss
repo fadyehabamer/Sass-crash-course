@@ -8,8 +8,8 @@
 
 @function setBtnColor($c) {
   @if (lightness($c) > 50) {
-    @return #fff;
+    @return rgb(0, 0, 0);
   } @else {
-    @return #000;
+    @return #fff;
   }
 }

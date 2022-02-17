@@ -30,8 +30,8 @@ body {
     display: inline-block;
     margin-right: 30px; }
   .card .btn-seconday {
-    background-color: #7f50ff;
-    color: #eee; }
+    background-color: black;
+    color: #fff; }
   .card .btn:hover {
     background-color: #d5d5d5;
     -webkit-transform: scale(1.2);
@@ -39,7 +39,7 @@ body {
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.7s ease-in-out; }
 
 h1 {
   padding: 10px 0;
