@@ -2,6 +2,18 @@
 $primaryColor: darkblue;
 $colorLight: #eee;
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: $primaryColor;
+    background-color: $colorLight;
+}
+
 .box {
   padding: 10px;
   height: 200px;
