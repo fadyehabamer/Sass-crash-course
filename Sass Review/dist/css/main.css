@@ -25,7 +25,8 @@ body {
     padding: 0.5rem 1rem;
     text-decoration: none;
     color: #008b7f;
-    border-radius: 3px; }
+    border-radius: 3px;
+    margin-top: 20px; }
 
 h1 {
   padding: 10px 0;
