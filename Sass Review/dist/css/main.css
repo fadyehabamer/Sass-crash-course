@@ -4,19 +4,14 @@
   box-sizing: border-box; }
 
 body {
-  color: darkblue;
+  color: #008b7f;
   background-color: #eee;
   font-family: Arial; }
 
 .card {
   padding: 2rem;
-  background-color: darkblue;
-  color: #eee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 350px; }
+  background-color: #008b7f;
+  color: #eee; }
 
 h1 {
   padding: 10px 0;
