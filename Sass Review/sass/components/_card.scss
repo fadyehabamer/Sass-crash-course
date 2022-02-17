@@ -1,34 +1,39 @@
-.card{
-    padding: 2rem;
-    background-color: $primaryColor;
-    color: $colorLight;
-    margin:20px auto;
-    width: 400px;
-    height: auto;
+.card {
+  padding: 2rem;
+  background-color: $primaryColor;
+  color: $colorLight;
+  margin: 20px auto;
+  width: 400px;
+  height: auto;
 
-    &-header{
-        padding: 0.4rem 0;
-        border-bottom: 2px solid #333;
-    }
-    p{
-        padding: 10px 0;
+  &-header {
+    padding: 0.4rem 0;
+    border-bottom: 2px solid #333;
+  }
+  p {
+    padding: 10px 0;
+  }
+
+  %btn {
+    background-color: $colorLight;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: $primaryColor;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .btn {
+    @extend %btn;
+
+    &-seconday {
+      background-color: rgb(127, 80, 255);
+      color: #eee;
     }
 
-    %btn{
-        background-color: $colorLight;
-        padding:0.5rem 1rem;
-        text-decoration: none;
-        color: $primaryColor;
-        border-radius: 3px;
-        margin-top: 20px;
-        display: inline-block;
+    &:hover {
+      @include transform(scale(1.2));
+      transition: all 0.3s ease-in-out;
     }
-    .btn{
-        @extend %btn;
-
-        &-seconday{
-            background-color: rgb(127, 80, 255);
-            color:#eee
-        }
-    }
+  }
 }
