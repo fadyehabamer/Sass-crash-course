@@ -1,8 +1,5 @@
 .box {
   padding: 10px;
-  height: 200px;
-}
-
-.box h2 {
-  background-color: red;
-}
+  height: 200px; }
+  .box h2 {
+    background-color: green; }
